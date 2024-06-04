@@ -1,0 +1,685 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ayomiposi Fasan, University of Waterloo, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.35.0.2
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\honou\ece350\manual_code\lab1\RTX-App\rtx-app.uvprojx
+Project File Date:  06/04/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'RTX App RAM'
+src/kernel/k_mem.c(41): warning: In file included from...
+./src/kernel/k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+1 error generated.
+compiling k_mem.c...
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(47): warning: In file included from...
+../include/common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected parameter declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+      ^
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected ')'
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+../include\rtx.h(64): note: to match this '('
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+     ^
+../include\rtx.h(64): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+^
+../include\rtx.h(64): error: expected ';' after top level declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+                   ^
+                   ;
+../include\rtx.h(65): error: expected parameter declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+      ^
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(65): error: expected ')'
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+../include\rtx.h(65): note: to match this '('
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+     ^
+../include\rtx.h(65): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+^
+../include\rtx.h(65): error: expected ';' after top level declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+                    ^
+                    ;
+../include\rtx.h(66): error: expected parameter declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+      ^
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(66): error: expected ')'
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+../include\rtx.h(66): note: to match this '('
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+     ^
+../include\rtx.h(66): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+^
+../include\rtx.h(66): error: expected ';' after top level declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+                      ^
+                      ;
+../include\rtx.h(67): error: expected parameter declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+      ^
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(67): error: expected ')'
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+../include\rtx.h(67): note: to match this '('
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+     ^
+../include\rtx.h(67): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+^
+../include\rtx.h(67): error: expected ';' after top level declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+                   ^
+                   ;
+../include\rtx.h(68): error: expected parameter declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+      ^
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(68): error: expected ')'
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+../include\rtx.h(68): note: to match this '('
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+     ^
+../include\rtx.h(68): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+^
+../include\rtx.h(68): error: expected ';' after top level declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+                     ^
+                     ;
+../include\rtx.h(69): error: expected parameter declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+      ^
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+src/tasks/wall_clock_task.c(7): warning: In file included from...
+../include\rtx.h(69): error: expected ')'
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+../include\rtx.h(69): note: to match this '('
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+     ^
+../include\rtx.h(69): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+^
+../include\rtx.h(69): error: expected ';' after top level declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+                   ^
+                   ;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+6 warnings and 20 errors generated.
+compiling wall_clock_task.c...
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(47): warning: In file included from...
+../include/common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(64): error: expected parameter declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+      ^
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(64): error: expected ')'
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+../include\rtx.h(64): note: to match this '('
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+     ^
+../include\rtx.h(64): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+^
+../include\rtx.h(64): error: expected ';' after top level declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+                   ^
+                   ;
+../include\rtx.h(65): error: expected parameter declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+      ^
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(65): error: expected ')'
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+../include\rtx.h(65): note: to match this '('
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+     ^
+../include\rtx.h(65): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+^
+../include\rtx.h(65): error: expected ';' after top level declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+                    ^
+                    ;
+../include\rtx.h(66): error: expected parameter declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+      ^
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(66): error: expected ')'
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+../include\rtx.h(66): note: to match this '('
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+     ^
+../include\rtx.h(66): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+^
+../include\rtx.h(66): error: expected ';' after top level declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+                      ^
+                      ;
+../include\rtx.h(67): error: expected parameter declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+      ^
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(67): error: expected ')'
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+../include\rtx.h(67): note: to match this '('
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+     ^
+../include\rtx.h(67): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+^
+../include\rtx.h(67): error: expected ';' after top level declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+                   ^
+                   ;
+../include\rtx.h(68): error: expected parameter declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+      ^
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(68): error: expected ')'
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+../include\rtx.h(68): note: to match this '('
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+     ^
+../include\rtx.h(68): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+^
+../include\rtx.h(68): error: expected ';' after top level declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+                     ^
+                     ;
+../include\rtx.h(69): error: expected parameter declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+      ^
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+src/tasks/null_task.c(40): warning: In file included from...
+../include\rtx.h(69): error: expected ')'
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+../include\rtx.h(69): note: to match this '('
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+     ^
+../include\rtx.h(69): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+^
+../include\rtx.h(69): error: expected ';' after top level declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+                   ^
+                   ;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+6 warnings and 20 errors generated.
+compiling null_task.c...
+src/bsp/LPC1768/uart_irq.c(38): warning: In file included from...
+./src/kernel\k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+1 error generated.
+compiling uart_irq.c...
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(47): warning: In file included from...
+../include/common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected parameter declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+      ^
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected ')'
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+../include\rtx.h(64): note: to match this '('
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+     ^
+../include\rtx.h(64): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+^
+../include\rtx.h(64): error: expected ';' after top level declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+                   ^
+                   ;
+../include\rtx.h(65): error: expected parameter declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+      ^
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(65): error: expected ')'
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+../include\rtx.h(65): note: to match this '('
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+     ^
+../include\rtx.h(65): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+^
+../include\rtx.h(65): error: expected ';' after top level declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+                    ^
+                    ;
+../include\rtx.h(66): error: expected parameter declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+      ^
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(66): error: expected ')'
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+../include\rtx.h(66): note: to match this '('
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+     ^
+../include\rtx.h(66): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+^
+../include\rtx.h(66): error: expected ';' after top level declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+                      ^
+                      ;
+../include\rtx.h(67): error: expected parameter declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+      ^
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(67): error: expected ')'
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+../include\rtx.h(67): note: to match this '('
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+     ^
+../include\rtx.h(67): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+^
+../include\rtx.h(67): error: expected ';' after top level declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+                   ^
+                   ;
+../include\rtx.h(68): error: expected parameter declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+      ^
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(68): error: expected ')'
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+../include\rtx.h(68): note: to match this '('
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+     ^
+../include\rtx.h(68): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+^
+../include\rtx.h(68): error: expected ';' after top level declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+                     ^
+                     ;
+../include\rtx.h(69): error: expected parameter declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+      ^
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+src/tasks/kcd_task.c(7): warning: In file included from...
+../include\rtx.h(69): error: expected ')'
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+../include\rtx.h(69): note: to match this '('
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+     ^
+../include\rtx.h(69): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+^
+../include\rtx.h(69): error: expected ';' after top level declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+                   ^
+                   ;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+6 warnings and 20 errors generated.
+compiling kcd_task.c...
+compiling uart_polling.c...
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(47): warning: In file included from...
+../include/common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected parameter declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+      ^
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(64): error: expected ')'
+../include/common.h(157): note: expanded from macro 'SVC_RTX_INIT'
+#define SVC_RTX_INIT        0x00
+                            ^
+../include\rtx.h(64): note: to match this '('
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+     ^
+../include\rtx.h(64): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+^
+../include\rtx.h(64): error: expected ';' after top level declarator
+__svc(SVC_RTX_INIT)     int     rtx_init(RTX_SYS_INFO *sys_info, TASK_INIT *tasks, int num_tasks);
+                   ^
+                   ;
+../include\rtx.h(65): error: expected parameter declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+      ^
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(65): error: expected ')'
+../include/common.h(158): note: expanded from macro 'SVC_MEM_ALLOC'
+#define SVC_MEM_ALLOC       0x01
+                            ^
+../include\rtx.h(65): note: to match this '('
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+     ^
+../include\rtx.h(65): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+^
+../include\rtx.h(65): error: expected ';' after top level declarator
+__svc(SVC_MEM_ALLOC)    void   *mem_alloc(size_t size);
+                    ^
+                    ;
+../include\rtx.h(66): error: expected parameter declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+      ^
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(66): error: expected ')'
+../include/common.h(159): note: expanded from macro 'SVC_MEM_DEALLOC'
+#define SVC_MEM_DEALLOC     0x02
+                            ^
+../include\rtx.h(66): note: to match this '('
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+     ^
+../include\rtx.h(66): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+^
+../include\rtx.h(66): error: expected ';' after top level declarator
+__svc(SVC_MEM_DEALLOC)  int     mem_dealloc(void *ptr);
+                      ^
+                      ;
+../include\rtx.h(67): error: expected parameter declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+      ^
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(67): error: expected ')'
+../include/common.h(160): note: expanded from macro 'SVC_MEM_DUMP'
+#define SVC_MEM_DUMP        0x03
+                            ^
+../include\rtx.h(67): note: to match this '('
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+     ^
+../include\rtx.h(67): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+^
+../include\rtx.h(67): error: expected ';' after top level declarator
+__svc(SVC_MEM_DUMP)     int     mem_dump(void);
+                   ^
+                   ;
+../include\rtx.h(68): error: expected parameter declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+      ^
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(68): error: expected ')'
+../include/common.h(161): note: expanded from macro 'SVC_TSK_CREATE'
+#define SVC_TSK_CREATE      0x04
+                            ^
+../include\rtx.h(68): note: to match this '('
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+     ^
+../include\rtx.h(68): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+^
+../include\rtx.h(68): error: expected ';' after top level declarator
+__svc(SVC_TSK_CREATE)   int     tsk_create(task_t *task, void (*task_entry)(void), U8 prio, U32 stack_size);
+                     ^
+                     ;
+../include\rtx.h(69): error: expected parameter declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+      ^
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+src/tasks/cdisp_task.c(7): warning: In file included from...
+../include\rtx.h(69): error: expected ')'
+../include/common.h(162): note: expanded from macro 'SVC_TSK_EXIT'
+#define SVC_TSK_EXIT        0x05
+                            ^
+../include\rtx.h(69): note: to match this '('
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+     ^
+../include\rtx.h(69): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+^
+../include\rtx.h(69): error: expected ';' after top level declarator
+__svc(SVC_TSK_EXIT)     void    tsk_exit(void);
+                   ^
+                   ;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+6 warnings and 20 errors generated.
+compiling cdisp_task.c...
+src/kernel/k_msg.c(37): warning: In file included from...
+./src/kernel/k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+1 error generated.
+compiling k_msg.c...
+src/kernel/HAL.c(41): warning: In file included from...
+./src/kernel/k_rtx.h(43): warning: In file included from...
+./src/kernel/k_rtx_init.h(45): warning: In file included from...
+./src/kernel/k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/kernel/HAL.c(49): error: expected '(' after 'asm'
+__asm void __rte(void)
+      ^
+src/kernel/HAL.c(49): error: expected ';' after top-level asm block
+__asm void __rte(void)
+     ^
+     ;
+src/kernel/HAL.c(51): error: use of undeclared identifier 'PRESERVE8'
+    PRESERVE8
+    ^
+4 errors generated.
+compiling HAL.c...
+src/kernel/k_rtx_init.c(42): warning: In file included from...
+./src/kernel/k_rtx_init.h(45): warning: In file included from...
+./src/kernel/k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+1 error generated.
+compiling k_rtx_init.c...
+src/kernel/k_task.c(51): warning: In file included from...
+./src/kernel/k_inc.h(46): warning: In file included from...
+../include\common.h(259): error: unknown type name '__packed'
+typedef __packed struct rtx_msg_hdr {
+        ^
+src/kernel/k_task.c(322): error: expected '(' after 'asm'
+__asm void k_tsk_switch(TCB *p_tcb_old)
+      ^
+src/kernel/k_task.c(322): error: expected ';' after top-level asm block
+__asm void k_tsk_switch(TCB *p_tcb_old)
+     ^
+     ;
+src/kernel/k_task.c(324): error: use of undeclared identifier 'PRESERVE8'
+        PRESERVE8
+        ^
+src/kernel/k_task.c(344): error: expected '(' after 'asm'
+__asm void k_tsk_start(void)
+      ^
+src/kernel/k_task.c(344): error: expected ';' after top-level asm block
+__asm void k_tsk_start(void)
+     ^
+     ;
+src/kernel/k_task.c(346): error: use of undeclared identifier 'PRESERVE8'
+        PRESERVE8
+        ^
+7 errors generated.
+compiling k_task.c...
+compiling timer.c...
+compiling printf.c...
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+".\Objects\RAM\rtx-app-ram.axf" - 91 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_RTX_App_RAM
+  C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+  C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

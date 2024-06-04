@@ -1,0 +1,97 @@
+Dependencies for Project 'rtx-app', Target 'RTX App SIM': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\bsp\LPC1768\uart_polling.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\uart_polling.o --omf_browse .\objects\sim\uart_polling.crf --depend .\objects\sim\uart_polling.d)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\bsp\LPC1768\uart_irq.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\uart_irq.o --omf_browse .\objects\sim\uart_irq.crf --depend .\objects\sim\uart_irq.d)
+I (.\src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\bsp\LPC1768\timer.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\timer.o --omf_browse .\objects\sim\timer.crf --depend .\objects\sim\timer.d)
+I (..\include\bsp\LPC1768\timer.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\kernel\HAL.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\hal.o --omf_browse .\objects\sim\hal.crf --depend .\objects\sim\hal.d)
+I (src\kernel\k_rtx.h)(0x665A7255)
+I (src\kernel\k_rtx_init.h)(0x665A7255)
+I (src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\kernel\k_mem.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\k_mem.o --omf_browse .\objects\sim\k_mem.crf --depend .\objects\sim\k_mem.d)
+I (src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\kernel\k_msg.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\k_msg.o --omf_browse .\objects\sim\k_msg.crf --depend .\objects\sim\k_msg.d)
+I (src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\kernel\k_rtx_init.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\k_rtx_init.o --omf_browse .\objects\sim\k_rtx_init.crf --depend .\objects\sim\k_rtx_init.d)
+I (src\kernel\k_rtx_init.h)(0x665A7255)
+I (src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\kernel\k_task.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\k_task.o --omf_browse .\objects\sim\k_task.crf --depend .\objects\sim\k_task.d)
+I (src\kernel\k_inc.h)(0x665A7255)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\libu\printf.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\printf.o --omf_browse .\objects\sim\printf.crf --depend .\objects\sim\printf.d)
+I (..\include\printf.h)(0x665A7255)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+F (.\src\tasks\cdisp_task.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\cdisp_task.o --omf_browse .\objects\sim\cdisp_task.crf --depend .\objects\sim\cdisp_task.d)
+I (..\include\rtx.h)(0x665A7255)
+I (..\include\rtx_ext.h)(0x665A7255)
+I (..\include\common.h)(0x665A7255)
+I (..\include\common_ext.h)(0x665A7255)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x665A7255)
+F (.\src\tasks\kcd_task.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\kcd_task.o --omf_browse .\objects\sim\kcd_task.crf --depend .\objects\sim\kcd_task.d)
+I (..\include\rtx.h)(0x665A7255)
+I (..\include\rtx_ext.h)(0x665A7255)
+I (..\include\common.h)(0x665A7255)
+I (..\include\common_ext.h)(0x665A7255)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x665A7255)
+F (.\src\tasks\null_task.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\null_task.o --omf_browse .\objects\sim\null_task.crf --depend .\objects\sim\null_task.d)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
+F (.\src\tasks\wall_clock_task.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\wall_clock_task.o --omf_browse .\objects\sim\wall_clock_task.crf --depend .\objects\sim\wall_clock_task.d)
+I (..\include\rtx.h)(0x665A7255)
+I (..\include\rtx_ext.h)(0x665A7255)
+I (..\include\common.h)(0x665A7255)
+I (..\include\common_ext.h)(0x665A7255)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x665A7255)
+F (..\AE-Lib\Objects\SIM\ae-lib-sim.lib)(0x00000000)()
+F (..\AE-Lib\Objects\RAM\ae-lib-ram.lib)(0x00000000)()
+F (RTE\Device\LPC1768\RTE_Device.h)(0x665A7255)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x665A7255)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\sim\startup_lpc17xx.o --depend .\objects\sim\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x665A7255)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768 -I .\src\kernel-I.\RTE\Device\LPC1768-I.\RTE\_RTX_App_SIM-IC:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_ -DECE350_P1 -DDEBUG_0_ -DDEBUG_1_-o .\objects\sim\system_lpc17xx.o --omf_browse .\objects\sim\system_lpc17xx.crf --depend .\objects\sim\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Users\honou\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E1914)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C8148)
+I (C:\Users\honou\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C8148)
