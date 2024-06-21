@@ -34,7 +34,7 @@
  * ------------------------------------------------------------------------
  */
 // kernel API that requires mpool ID
-mpool_t k_mpool_create  (int algo, U32 strat, U32 end);
+mpool_t k_mpool_create  (int algo, U32 start, U32 end);
 void   *k_mpool_alloc   (mpool_t mpid, size_t size);
 int     k_mpool_dealloc (mpool_t mpid, void *ptr);
 int     k_mpool_dump    (mpool_t mpid);
